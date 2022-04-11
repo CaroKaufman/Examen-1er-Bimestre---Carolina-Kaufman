@@ -210,9 +210,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db85acd674bde04ca636f343392d7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreAlumno: 0
-  orientacion: l
-  anio: 8
+  nombreAlumno: 
+  orientacion: M
+  anio: 2
 --- !u!4 &261967157
 Transform:
   m_ObjectHideFlags: 0
