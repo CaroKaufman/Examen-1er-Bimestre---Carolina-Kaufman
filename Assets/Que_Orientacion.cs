@@ -19,7 +19,7 @@ public class Que_Orientacion : MonoBehaviour
     
         }
 
-         if (anio < 1 || anio > 5)
+         else if (anio < 1 || anio > 5)
         {
             Debug.Log("Error. Ingrese números entre 1 y 5");
         }
@@ -28,7 +28,7 @@ public class Que_Orientacion : MonoBehaviour
 
        // Si se ingresa un valor diferente a las opciones válidas en el campo ingreso de orientación escribir en consola 
        //“Solo puede ingresar T, D, G, M o H”.
-         if (orientacion != "T" && orientacion != "D" && orientacion != "G" && orientacion != "M" && orientacion != "H")
+         else if (orientacion != "T" && orientacion != "D" && orientacion != "G" && orientacion != "M" && orientacion != "H")
         {
             Debug.Log("Solo puede ingresar T, D, G, M o H");
         }
