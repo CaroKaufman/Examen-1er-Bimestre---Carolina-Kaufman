@@ -40,6 +40,8 @@ public class Que_Orientacion : MonoBehaviour
             Debug.Log("Error. Aún estás en el ciclo básico");
         }
 
+        //Si los ingresos de nombre, año y orientación son válidos escribir en consola un mensaje de agradecimiento en el 
+        //siguiente formato: “Muchas gracias [nombreAlumno]!”
         else
         {
             Debug.Log("Muchas gracias " + nombreAlumno + "!");
